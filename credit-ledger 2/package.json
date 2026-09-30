@@ -1,0 +1,14 @@
+{
+  "name": "credit-ledger",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Explainable commercial credit risk research dashboard",
+  "scripts": {
+    "start": "node scripts/preview.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "build": "node scripts/build.cjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
